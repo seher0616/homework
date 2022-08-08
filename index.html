@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div id="container">
+        <header id="header">
+            <h1 class="title"><span>NET</span>FLIX</h1>
+            <h3 id="description">Thank you for signing up to Netflix.Tell me more about yourself.</h3>
+        </header>
+
+        <section id="survey-form-container">
+            <form action="results.html" method="get">
+                <div class="input-box">
+                    <label for="Name">Name</label><br>
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+
+                </div>
+                
+                <div class="input-box">
+                    <label for="Age">AGE</label><br>
+                    <input type="number" id="age" placeholder="Age">
+
+                </div>
+                <div clas="input-box">
+                    <label for="Email">Email</label><br>
+                    <input type="email" id="email" placeholder="Email">
+
+                </div>
+                <div class="input-box">
+                    <laber for="contant">Contant Type</laber><br>
+                    <select name="contant" id="dropdown">
+                        <option value="movies">Movies</option>
+                        <option value="series">Series</option>
+                        <option value="TV_Shows">TV_Shows</option>
+
+                    </select>
+
+                </div>
+
+                <div class="input-box">
+                    <label for="">Movie Type</label>
+                    <br>
+                    <input type="checkbox" name="movie" id="first-check" value="Comedy">
+                    <label for="first-check">Comediy</label><br>
+               
+                    <input type="checkbox" name="movie" id="first-check" value="Action">
+                    <label for="second-check">Action</label><br>
+                
+                    <input type="checkbox" name="movie" id="first-check" value="Romance">
+                    <label for="third-check">Romance</label>
+                   </div>
+                <div class="input-box">
+                    <label for>Gender</label>
+                    <br>
+                    <input type="radio" name="gender" id="first-check" value="Male">
+                    <label for="first-radio">Comediy</label><br>
+
+                    <input type="radio" name="movie" id="second radio" value="Female">
+                    <label for="first-radio">Female</label><br>
+
+                    <input type="radio" name="gender" id="third radio" value="Other">
+                    <label for=" third-radio">Other</label><br>
+
+                </div>
+                <div class="input-box">
+                    <label for="feedback">Feedback</label>
+                    <br>
+                    <textarea name="feedback" id="feedback" placeholder="any comment"></textarea>
+
+
+
+
+                </div>
+                <div class="form-summit">
+                    <button type="submit" id="form-button">Send</button>
+
+                </div>
+
+
+            </form>
+
+
+
+        </section>
+
+
+
+
+
+    </div>
+
+    
+</body>
+</html>
